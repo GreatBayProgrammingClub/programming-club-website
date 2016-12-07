@@ -1,0 +1,31 @@
+{
+  "name": "programming-club-website",
+  "version": "1.0.0",
+  "description": "Programming Club is an organization from Great Bay Community College. Our focus is on exploring and learning computer science by building projects for the community.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f7g/programming-club-website.git"
+  },
+  "keywords": [
+    "Great",
+    "Bay",
+    "Programming",
+    "Club",
+    "GBCC",
+    "Computer"
+  ],
+  "author": "GBCC Programming Club",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f7g/programming-club-website/issues"
+  },
+  "homepage": "https://github.com/f7g/programming-club-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp-sass": "^2.3.2"
+  }
+}

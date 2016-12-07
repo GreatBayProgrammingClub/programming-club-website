@@ -1,0 +1,86 @@
+@import 'all-devices'
+@import 'grid'
+@import 'typography'
+@import 'colors'
+
+/* Custom */
+body
+  background-color: white
+  font-family: 'Roboto Mono', monospace
+  letter-spacing: 0.75px
+
+/* Links */
+a
+  color: $link-color
+  text-decoration: none
+a:hover
+  color: $link-hover-color
+
+/* Buttons */
+.btn
+  color: black
+  border: 1px solid black
+  cursor: pointer
+  display: inline-block
+  font-weight: normal
+  margin: 0
+.btn-alt
+  background: #004e66
+  background-color: white
+  border: 1px solid $tone
+  padding: 0px 12px 0px 12px
+
+/* navigation */
+.nav
+  text-align: right
+.nav li
+  display: inline-block
+  margin:  0 10px
+  vertical-align: middle
+.nav li:last-child
+  margin-right: 0
+
+
+/* Header: school label, navigation
+ * ––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+header
+  h5
+    margin: 0
+    padding: 0
+    display: inline-block
+    padding-top: 16px
+    padding-bottom: 16px
+    border-top: 10px solid $black
+
+.primary-nav
+  font-weight: bold
+  font-size: 12px
+
+@media only screen and (max-width: 30em)
+  // when screen is at least 30em
+  .hide
+    display: none
+
+
+/* Section: Hero: club name, description
+ * ––––––––––––––––––––––––––––––––––––––––––––––––– -->
+.hero
+  background-color: white
+  padding-bottom: 32px
+  height: 600px
+.hero
+  h1
+    color: grey
+    font-weight: bold
+    padding-top: 42px
+  p
+    color: $tone
+    margin-top: 18px
+    padding-bottom: 42px
+.hero .btn-alt
+    margin-top: 32px
+
+
+/* Section: title, Activities: AppDevelopment, Talk, Celebration
+ * ––––––––––––––––––––––––––––––––––––––––––––––––– -->

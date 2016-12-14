@@ -16,7 +16,28 @@ body {
   margin: auto;
 }
 
-// navigation for all
+// links
+//-------------------------------------
+a {
+  color: navy;
+  text-decoration: none;
+}
+a:hover {
+  color: darkgrey;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: darkgrey;
+}
+
+// navigation
 //-------------------------------------
 .nav {
   text-align: right;
@@ -63,7 +84,6 @@ body {
 // header + hero
 //-------------------------------------
 .header-hero-wrapper {
-
 }
 
 
@@ -77,3 +97,15 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
+// (TODO) Projects/Recent Project
+//-------------------------------------
+
+
+// (TODO) Services
+//-------------------------------------
+
+
+// Footer: coprght, navigation,  school label, logo
+//-------------------------------------

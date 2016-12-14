@@ -188,6 +188,24 @@ body {
   max-width: 1280px;
   margin: auto; }
 
+a {
+  color: navy;
+  text-decoration: none; }
+
+a:hover {
+  color: darkgrey; }
+
+p a {
+  border-bottom: 1px solid #dfe2e5; }
+
+.primary-header a,
+.primary-footer a {
+  color: black; }
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: darkgrey; }
+
 .nav {
   text-align: right; }
 

@@ -12,4 +12,4 @@ gulp
 
 
 ## Note:
-You must install [Node.js](https://nodejs.org/en/)
+You must and need to install [Node.js](https://nodejs.org/en/) in order to run the command above. 

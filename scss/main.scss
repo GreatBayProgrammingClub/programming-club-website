@@ -1,0 +1,111 @@
+@import "reset";
+@import "grid";
+@import "typography";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'Roboto Mono', monospace, helvetica;
+  letter-spacing: 0.75px;
+  background-image: url('hero-bg-min.jpg');
+  background-position: right top;
+}
+.row {
+  max-width: 1280px;
+  margin: auto;
+}
+
+// links
+//-------------------------------------
+a {
+  color: navy;
+  text-decoration: none;
+}
+a:hover {
+  color: darkgrey;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: black;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: darkgrey;
+}
+
+// navigation
+//-------------------------------------
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin:  0 10px;
+  vertical-align: middle;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+// buttons
+//-------------------------------------
+.btn {
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
+.btn-alt {
+  border: 1px solid lightgrey;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+// header + hero
+//-------------------------------------
+.header-hero-wrapper {
+}
+
+
+// header: school-label, navigation
+//-------------------------------------
+.hero {
+}
+.hero-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+// (TODO) Projects/Recent Project
+//-------------------------------------
+
+
+// (TODO) Services
+//-------------------------------------
+
+
+// Footer: coprght, navigation,  school label, logo
+//-------------------------------------
